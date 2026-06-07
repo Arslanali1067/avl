@@ -43,7 +43,7 @@ export function Footer() {
     <footer className="footer">
       <div className="footer-grid">
         <div>
-          <Image className="footer-logo" src="/aloha-avl-logo-light.png" alt="Aloha AVL" width={118} height={115} />
+          <Image className="footer-logo" src="/avl-light.png" alt="Aloha AVL" width={70} height={68} />
           <p className="muted">
             Custom audio, video, lighting, and control systems for venues, churches, schools, and corporate spaces.
           </p>

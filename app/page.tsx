@@ -21,7 +21,7 @@ export default function Home() {
         <div className="home-hero-inner">
           <div className="hero-copy-panel">
             <div className="hero-copy">
-              <p className="eyebrow">Audio, video, lighting, and production support</p>
+              <p className="eyebrow">Audio · Video · Lighting · Production Support</p>
               <h1>Make the room feel ready before anyone walks in.</h1>
               <p>
                 Aloha AVL designs and supports integrated systems for worship, venues, schools, corporate spaces, and live events where
@@ -32,35 +32,36 @@ export default function Home() {
                   Start a Project
                   <ArrowRight size={18} />
                 </Link>
-                <Link className="button secondary" href="/projects">
+                <Link className="button ghost" href="/projects">
                   See the Work
                 </Link>
               </div>
             </div>
-            <div className="hero-metrics" aria-label="Aloha AVL strengths">
-              <span>
+            <div className="hero-metrics">
+              <div className="hero-metric">
                 <strong>AVL</strong>
-                <small>Design + install</small>
-              </span>
-              <span>
+                <span>Design + Install</span>
+              </div>
+              <div className="hero-metric">
                 <strong>Live</strong>
-                <small>Event support</small>
-              </span>
-              <span>
+                <span>Event Support</span>
+              </div>
+              <div className="hero-metric">
                 <strong>Rooms</strong>
-                <small>Built for operators</small>
-              </span>
+                <span>Built for Operators</span>
+              </div>
             </div>
           </div>
-          <div className="hero-visual" aria-label="Aloha AVL project imagery">
+          <div className="hero-visual">
             <div className="hero-visual-main">
-              <Image src="/uploads/2025/10/Money-Shot-Indoor.jpg" alt="" fill sizes="(max-width: 980px) 100vw, 54vw" priority />
-            </div>
-            <div className="hero-visual-small hero-visual-small-top">
-              <Image src="/uploads/2025/10/ambient_edited-1066.jpg" alt="" fill sizes="240px" />
-            </div>
-            <div className="hero-visual-small hero-visual-small-bottom">
-              <Image src="/uploads/2025/11/Lights-in-a-row-1.jpg" alt="" fill sizes="260px" />
+              <video
+                className="hero-video"
+                src="/bg-video.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
             </div>
           </div>
         </div>

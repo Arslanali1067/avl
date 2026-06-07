@@ -43,28 +43,28 @@ export const industries = [
     title: "Churches",
     summary:
       "AVL systems for worship rooms, broadcast spaces, classrooms, lobbies, and multipurpose environments that volunteers can operate with confidence.",
-    image: "/uploads/2025/10/BeHope-Auditorium-Angle_resized.jpg",
+    image: "/uploads/2025/10/Auditorium-Angle-All-Church-P1015715-HDR.jpg",
   },
   {
     slug: "corporations",
     title: "Corporations",
     summary:
       "Conference, training, and presentation spaces with reliable conferencing, wireless sharing, distributed audio, displays, and intuitive control.",
-    image: "/uploads/2025/10/Copy-of-Gosiger-Main.jpg",
+    image: "/uploads/2025/10/United-Grinding-LED-wall-2048x1365.jpg",
   },
   {
     slug: "event-venues",
     title: "Event Venues",
     summary:
       "Production-ready audio, video, and lighting for venues that host concerts, weddings, conferences, ceremonies, and community events.",
-    image: "/uploads/2025/11/Macochee-Sound-Vision.jpg",
+    image: "/uploads/2025/11/Copy-of-Hope-Rising-Gala.jpg",
   },
   {
     slug: "schools-universities",
     title: "Schools & Universities",
     summary:
       "Auditoriums, arenas, athletic spaces, and learning environments designed for assemblies, performances, games, and daily instruction.",
-    image: "/uploads/2025/10/Full-Theater-From-Balcony.jpg",
+    image: "/uploads/2025/10/FOH-w_Stage-2.jpg",
   },
 ];
 
